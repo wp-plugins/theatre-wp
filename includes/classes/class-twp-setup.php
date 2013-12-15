@@ -414,7 +414,7 @@ class TWP_Setup {
 			$twp_style_array = array( 'thickbox' );
 
 			wp_register_script( 'twp-timepicker', TWP_META_BOX_URL . 'js/jquery.timePicker.min.js' );
-			wp_register_script( 'twp-scripts', TWP_META_BOX_URL . 'js/twp.js', $twp_script_array, '0.9.1' );
+			wp_register_script( 'twp-scripts', TWP_META_BOX_URL . 'js/twp.js', $twp_script_array );
 			wp_localize_script( 'twp-scripts', 'twp_ajax_data', array( 'ajax_nonce' => wp_create_nonce( 'ajax_nonce' ), 'post_id' => get_the_ID() ) );
 			wp_enqueue_script( 'twp-timepicker' );
 			wp_enqueue_script( 'twp-scripts' );
