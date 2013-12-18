@@ -48,6 +48,12 @@ To customize these templates, copy the files located in includes/templates withi
 
 == Upgrade Notice ==
 
+= 0.33 =
+Fixed event's date selection
+
+= 0.32 =
+WordPress 3.8
+
 = 0.3 =
 First public Beta
 

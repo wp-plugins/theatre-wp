@@ -24,7 +24,7 @@ Plugin Name: TheatreWP
 Plugin URI: http://www.bolorino.net/theatre-wp/
 Description: CMS for Theatre and Performing Arts Companies. Managing Shows and Performances made easy.
 Tags: theatre, troupe, actors, shows, performing arts
-Version: 0.31
+Version: 0.33
 License: GPLv2
 Author: Jose Bolorino <jose.bolorino@gmail.com>
 Author URI: http://www.bolorino.net/
