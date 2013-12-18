@@ -48,6 +48,9 @@ To customize these templates, copy the files located in includes/templates withi
 
 == Upgrade Notice ==
 
+= 0.35 =
+Fixed Spectacle Admin UI
+
 = 0.33 =
 Fixed event's date selection
 
