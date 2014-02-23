@@ -149,8 +149,8 @@ class TWP_Performance {
 
 	    $output = '<ul class="next-performances">';
 
-	    foreach ( $next as $post ) : setup_postdata( $post );
-	    	$performance_custom = $this->get_performance_custom( $this->spectacle, $post->ID );
+	    foreach ( $next as $performance ) : setup_postdata( $performance );
+	    	$performance_custom = $this->get_performance_custom( $this->spectacle, $performance->ID );
 
 	        $spectacle_title = sanitize_title( $performance_custom['performance'] );
 	        $spectacle_link = $this->spectacle->get_spectacle_link( $spectacle_title );
@@ -161,7 +161,7 @@ class TWP_Performance {
 	        	$output .= '<li>';
 
 	        	$output .= '<a href="' . get_permalink() . '">';
-	        	$output .= get_the_title( $post->ID ) .'</a> <br />';
+	        	$output .= get_the_title( $performance->ID ) .'</a> <br />';
 
 	        	if ( $performance_custom['event'] ) {
 	        		$output .= $performance_custom['event'] . '<br />';
