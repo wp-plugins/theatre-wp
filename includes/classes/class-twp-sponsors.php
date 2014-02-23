@@ -18,7 +18,11 @@ class TWP_Sponsor {
         $sponsors_query =  get_posts( 'post_type=sponsor&post_status=publish&orderby=title&order=ASC&numberposts=-1' );
 
         if ( ! $sponsors_query ) {
-            return false;
+            $sponsors[] = array(
+                'id' => 0,
+                'title' => __('There are no sponsors yet. This checkbox will disappear after you add some in the Sponsors menu.')
+            );
+            return $sponsors;
         }
 
         foreach ( $sponsors_query as $sponsor ) {
