@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TheatreWP\n"
 "POT-Creation-Date: 2014-03-13 17:42+0100\n"
-"PO-Revision-Date: 2014-05-27 23:13+0100\n"
+"PO-Revision-Date: 2014-08-19 17:45+0100\n"
 "Last-Translator: Jose Bolorino <jose.bolorino@gmail.com>\n"
 "Language-Team:  <jose.bolorino@gmail.com>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.6.7\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -551,6 +551,13 @@ msgstr "%s actuaciones en total"
 #: includes/templates/archive-performance.php:65
 msgid "View upcoming performances"
 msgstr "Ver próximas funciones"
+
+#: archive-performance.php:87
+#, php-format
+msgid "One performance"
+msgid_plural "%s Total performances"
+msgstr[0] "Una función"
+msgstr[1] "%s funciones en total"
 
 #: includes/templates/archive-performance.php:114
 #, php-format
