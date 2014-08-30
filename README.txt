@@ -75,6 +75,10 @@ Not yet.
 5. Productions
 
 == Changelog ==
+= 0.48 =
+* Fix performance meta update error
+Please, upgrade!
+
 = 0.47 =
 * Fix redundant object creation
 * Upgrade performances meta

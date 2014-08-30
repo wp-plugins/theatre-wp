@@ -68,12 +68,14 @@ $locale = apply_filters( 'plugin_locale', get_locale(), 'theatrewp' );
 
 $current_version = get_option( 'twp_version' );
 
-if ( ! $current_version OR $current_version < '0.48' ) {
-    _upgrade_performances_meta();
-}
-
 function twp_load_plugin_textdomain() {
     load_plugin_textdomain( 'theatrewp', false, plugin_dir_path( __FILE__ ) . 'languages' );
+}
+
+if ( ! $current_version OR $current_version < '0.48' ) {
+    _upgrade_performances_meta();
+    // Temporary ugly fix
+    update_option( 'twp_version', '0.48' );
 }
 
 function _upgrade_performances_meta() {
