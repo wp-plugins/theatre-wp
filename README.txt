@@ -4,7 +4,7 @@ Donate link:
 Tags: theatre, troupe, dance, performing arts
 Requires at least: 3.9
 Tested up to: 4.0
-Stable tag: 0.49
+Stable tag: 0.50
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,8 @@ The plugin "Theatre WP" makes easy the work of developers and designers who use 
 Theatre WP is intended for designers and developers using WordPress to setup a performing arts company website.
 This plugin provides productions and performances management.
 
+Demo site: http://theatrewp.bolorino.net/
+
 **What does the plugin include?**
 
 * Custom posts for Productions, Performances and Sponsors
@@ -26,6 +28,7 @@ This plugin provides productions and performances management.
 * Translation into English, Spanish and Russian
 
 **Plugin benefits**
+
 * Adapted to the basic needs of most Theater Companies
 * Organized and well structured information of Shows and Performances to facilitate their management and accessibility
 * Independent of the theme used in WordPress
@@ -34,12 +37,13 @@ This plugin provides productions and performances management.
 * Open to improvements and suggestions
 
 **ToDo**
+
 * Better options panel
 * Hookable
 * Cleaner default templates
 * Translation into other languages
 
-=== Notes for developers/designers ===
+== Notes for developers/designers ==
 There are six templates within the plugin, used if the current theme does not include them:
 
 * single-spectacle.php # Single Show page
@@ -70,6 +74,11 @@ Not yet.
 5. Productions
 
 == Changelog ==
+= 0.50 =
+* WordPress 4.0
+* Custom posts info in Dashboard
+* Cleanup activation and deactivation hooks
+
 = 0.49 =
 * Fix plugin version
 
@@ -94,5 +103,7 @@ Please, see full changelog in the plugin website
 http://www.bolorino.net/theatre-wp-wordpress-plugin-performing-arts/
 
 == Upgrade Notice ==
-= 0.49 =
-Fix plugin version
+= 0.50 =
+* WordPress 4.0
+* Custom posts info in Dashboard
+* Cleanup activation and deactivation hooks
