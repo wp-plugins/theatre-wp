@@ -76,7 +76,7 @@ Not yet.
 == Changelog ==
 = 0.50 =
 * WordPress 4.0
-* Custom posts info in Dashboard
+* Custom posts info in Dashboard (At a glance)
 * Cleanup activation and deactivation hooks
 
 = 0.49 =
@@ -105,5 +105,5 @@ http://www.bolorino.net/theatre-wp-wordpress-plugin-performing-arts/
 == Upgrade Notice ==
 = 0.50 =
 * WordPress 4.0
-* Custom posts info in Dashboard
+* Custom posts info in Dashboard (At a glance)
 * Cleanup activation and deactivation hooks
