@@ -49,8 +49,8 @@ define( 'TWP_BASE_PATH', plugin_dir_path( __FILE__ ) );
 require_once( plugin_dir_path( __FILE__ ) . 'includes/classes/class-theatre-wp.php' );
 
 // Localization
-add_action( 'plugins_loaded', 'twp_load_plugin_textdomain' );
-$locale = apply_filters( 'plugin_locale', get_locale(), 'theatrewp' );
+// add_action( 'plugins_loaded', 'twp_load_plugin_textdomain' );
+// $locale = apply_filters( 'plugin_locale', get_locale(), 'theatrewp' );
 
 function twp_load_plugin_textdomain() {
     load_plugin_textdomain( 'theatrewp', false, plugin_dir_path( __FILE__ ) . 'languages' );
