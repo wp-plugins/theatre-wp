@@ -29,7 +29,7 @@ class Theatre_WP {
 	 *
 	 * @var     string
 	 */
-	static $version = '0.51';
+	static $version = '0.52';
 
 	/**
 	 * Unique identifier for your plugin.
@@ -295,7 +295,7 @@ class Theatre_WP {
 
 		if ( $production_custom['audience'] ) {
 			$twp_content .= '<div class="twp-audience">';
-			$twp_content .= $production_custom['audience'];
+			$twp_content .= __( $production_custom['audience'], 'theatrewp' );
 			$twp_content .= '</div>';
 			$pre_content = true;
 		}

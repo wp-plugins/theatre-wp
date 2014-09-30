@@ -4,7 +4,7 @@ Donate link:
 Tags: theatre, troupe, dance, performing arts
 Requires at least: 3.9
 Tested up to: 4.0
-Stable tag: 0.51
+Stable tag: 0.52
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,7 @@ Demo site: http://theatrewp.bolorino.net/
 * Translation into other languages
 
 == Notes for developers/designers ==
+
 There are six templates within the plugin as examples to use it in your custom theme:
 
 * single-spectacle.php # Single Show page
@@ -54,6 +55,9 @@ There are six templates within the plugin as examples to use it in your custom t
 * taxonomy-format.php # Productions by category
 
 You can copy the files located in includes/templates within the plugin directory to your theme's directory and modify it to your liking.
+
+Define TWP_THEME constant in your theme if using the templates to avoid duplicate content:
+define( 'TWP_THEME', true );
 
 == Installation ==
 
@@ -75,6 +79,9 @@ Not yet.
 
 == Changelog ==
 
+= 0.52 =
+* Fix translations
+
 = 0.51 =
 * Works now with (almost) any theme!
 * Content filtered instead of using custom templates inside plugin
@@ -91,4 +98,4 @@ Please, see full changelog in the plugin website
 http://www.bolorino.net/theatre-wp-wordpress-plugin-performing-arts/
 
 == Upgrade Notice ==
-Works now with (almost) any theme!
+Fixed some untranslated strings
