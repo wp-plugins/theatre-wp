@@ -3,12 +3,14 @@
 *.err
 *.orig
 *.log
+*.bck
 *.rej
 *.swo
 *.swp
 *.vi
 *~
 *.sass-cache
+notes.txt
 
 # OS or Editor folders
 .DS_Store
@@ -22,13 +24,6 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 
-# Dreamweaver added files
-_notes
-dwsync.xml
-
-# Komodo
-*.komodoproject
-.komodotools
 
 # Folders to ignore
 .hg
